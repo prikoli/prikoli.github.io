@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}*
+
+body{
+    font-family: 'Neucha', cursive;
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+    padding: 50px;
+    overflow: scroll;
+    background-color: azure;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+h4{
+    background: linear-gradient(45deg, #ff6666, #ffc0cb);
+    color: #fff;
+    padding: 7px 0 7px 7px;
+    margin-bottom: 3px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.container div{
+    background: linear-gradient(45deg, azure, #ffc2cc);
+    text-align: left;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+h1{
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+#petals {
+    width: 100%;
+    height: 100%;
+    perspective: 700px;
+    width: 1000px;
+    height: 500px;
+}
+
+.dot {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    background: url('petal.png');
+    background-size: 100% 100%;
+}
+
+footer{
+    margin-top: 15px;
+    font-size: 24px;
+}
